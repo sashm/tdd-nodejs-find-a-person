@@ -3,8 +3,6 @@ function Map(posts) {
   this._posts = posts;
 }
 
-function Map(posts) {
-  this._posts = posts;
 
 //first true commit
 Map.prototype.find_a_person = function(name) {
