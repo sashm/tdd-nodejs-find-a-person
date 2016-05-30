@@ -7,5 +7,5 @@ describe('Find a person', function() {
     var map = new Map(["I met Or A. at Chabad house Bangkok", "We found Or A. R.I.P at Langtang valley", "Random post"]);
     var posts = map.find_a_person("Or A.")
     expect(posts).to.be.eql(["I met Or A. at Chabad house Bangkok", "We found Or A. R.I.P at Langtang valley"]);
+     	
   });
-});
